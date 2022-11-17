@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!-- this section of code is css -->
     <style>
-        img {
-            width: 15vw;
-            display: inline-block;
-            height: 100%;
-            vertical-align: middle;
-        }
+      img {
+        width: 15vw;
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
 
-        div {
-            text-align: center;
-            /*   margin: auto;
+      div {
+        text-align: center;
+        /*   margin: auto;
             width: 100%; */
-        }
+      }
+    </style>
+
+    <button id="backButton" onclick="location.href='../../index.html'">
+      BACK
+    </button>
+
+    <style>
+      #backButton {
+        background-color: #008cba;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
     </style>
 
     <!-- this section is our html -->
     <div>
+      <img
+        src="images/H.jpg"
+        onmouseover="this.src='images/HH.gif'  "
+        onmouseout="this.src='images/H.jpg' "
+      />
 
-        <img src="images/H.jpg" 
-        onmouseover="this.src='images/HH.gif'  " 
-        onmouseout="this.src='images/H.jpg' " />
+      <img
+        src="images/E.jpg"
+        onmouseover="this.src='images/EE.gif'   "
+        onmouseout="this.src='images/E.jpg'   "
+      />
 
-        <img src="images/E.jpg" 
-        onmouseover="this.src='images/EE.gif'   " 
-        onmouseout="this.src='images/E.jpg'   " />
+      <img
+        src="images/L.jpg"
+        onmouseover="this.src='images/LL.gif'   "
+        onmouseout="this.src='images/L.jpg'   "
+      />
 
-        <img src="images/L.jpg" 
-        onmouseover="this.src='images/LL.gif'   " 
-        onmouseout="this.src='images/L.jpg'   " />
+      <img
+        src="images/L2.jpg"
+        onmouseover="this.src='images/LL2.gif'   "
+        onmouseout="this.src='images/L2.jpg'   "
+      />
 
-        <img src="images/L2.jpg" 
-        onmouseover="this.src='images/LL2.gif'   " 
-        onmouseout="this.src='images/L2.jpg'   " />
-
-        <img src="images/O.jpg" 
-        onmouseover="this.src='images/OO.gif'   " 
-        onmouseout="this.src='images/O.jpg'   " />
-
-
-
+      <img
+        src="images/O.jpg"
+        onmouseover="this.src='images/OO.gif'   "
+        onmouseout="this.src='images/O.jpg'   "
+      />
     </div>
-
-</body>
-
+  </body>
 </html>
